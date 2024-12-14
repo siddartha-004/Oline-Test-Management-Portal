@@ -19,9 +19,19 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/")
-    public User createUser(@RequestBody User user) throws Exception {
+    public ResponseEntity<?> createUser(@RequestBody User user) throws Exception {
+        try {
 
-        return this.userService.createUser(user);
+            User user1 =this.userService.createUser(user);
+            return ResponseEntity.ok(Map.of(
+                    "message", "Created successfully",
+                    "userDetails", user1
+            ));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of(
+                    "message", e.getMessage()
+            ));
+        }
     }
 
     @GetMapping("/{username}")
@@ -145,7 +155,7 @@ public class UserController {
     }
     @DeleteMapping("/admin/deleteqn/{testId}/questions")
     public ResponseEntity<?> deleteQuestions(@PathVariable Integer testId, @RequestBody Question question) {
-
+         System.out.println(question.toString());
         try {
             Question deletedQuestion = userService.deleteQuestions(testId, question);
 
@@ -187,6 +197,7 @@ public class UserController {
     }
     @GetMapping("/user/{userName}/test")
     public ResponseEntity<Test> getTestDetailsByUserId(@PathVariable String userName) {
+        System.out.println("hi");
         try {
             Test test = userService.getTestDetailsByUserName(userName);
             return ResponseEntity.ok(test);

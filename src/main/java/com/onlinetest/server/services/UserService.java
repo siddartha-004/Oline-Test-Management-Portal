@@ -56,7 +56,6 @@ public class UserService {
             System.out.println("k");
             throw new Exception("Invalid credentials");
         }
-
         return user;
     }
     private void updateTestTotalMarks(Test test) {
@@ -310,15 +309,21 @@ public class UserService {
                 if (question.getChosenAnswer() != null && question.getQuestionAnswer().equals(answer.getChosenAnswer())) {
 
                     System.out.println("hello"+question.getQuestionMarks());
+                    question.setMarksScored(question.getQuestionMarks());
                     totalMarks =totalMarks .add (question.getQuestionMarks());
                     System.out.println(totalMarks);
+                }
+                else {
+
+                    question.setMarksScored(BigDecimal.ZERO); // assuming marks_scored is the field that stores scored marks
                 }
             }
         }
          System.out.println(totalMarks);
         test.setTestMarksScored(totalMarks);
-        test.setTestTotalMarks(totalMarks);
+       
         testRepository.save(test);
+        questionRepository.saveAll(test.getTestQuestions());
 
         return totalMarks;
     }
