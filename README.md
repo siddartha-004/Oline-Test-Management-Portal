@@ -89,6 +89,10 @@ This is a web-based **Test Management System** designed for administering and ma
 #### Navigate Back to Dashboard:
 ![Back to Dashboard](https://github.com/user-attachments/assets/edadcb1f-9dc9-4fb5-b234-cd87c80f60be)
 
+
+##By Admin:
+-View test results after completion:
+![Results Page](https://github.com/user-attachments/assets/986330f1-c8ea-41a2-adba-45499c5a134d)
 ---
 
 ## 🛠️ Technologies Used
@@ -99,14 +103,3 @@ This is a web-based **Test Management System** designed for administering and ma
 - **API Testing**: Postman
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Install [Node.js](https://nodejs.org/)
-- Install [MySQL](https://www.mysql.com/)
-
-### Backend Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/test-management.git
