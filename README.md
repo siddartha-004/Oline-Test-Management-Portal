@@ -17,6 +17,14 @@ This is a web-based **Test Management System** designed for administering and ma
 
 ---
 
+### Main Front Page
+![Main Front Page](https://github.com/user-attachments/assets/6de28c05-2d8a-44a5-b9a0-ad484b48f3dc)
+
+### Login Page
+![Login Page](https://github.com/user-attachments/assets/109a5495-7d82-4fdb-a473-a5206ac2d51c)
+
+---
+
 ## 🌟 Admin Panel Functionalities
 
 ### 1. Dashboard
@@ -24,7 +32,7 @@ This is a web-based **Test Management System** designed for administering and ma
 ![Admin Dashboard](https://github.com/user-attachments/assets/d8aa8b2f-8c4c-427b-9473-13e7824d2780)
 
 ### 2. Manage Users
-- View, create, and edit users.
+- View, create users.
 ![Manage Users](https://github.com/user-attachments/assets/d288ac82-bdf4-4324-9cfc-80a9e52c2841)
 
 #### Creating a New User:
@@ -89,10 +97,9 @@ This is a web-based **Test Management System** designed for administering and ma
 #### Navigate Back to Dashboard:
 ![Back to Dashboard](https://github.com/user-attachments/assets/edadcb1f-9dc9-4fb5-b234-cd87c80f60be)
 
-
-###By Admin:
--View test results after completion:
-![image](https://github.com/user-attachments/assets/96d37555-67c1-473e-9fb9-8c45e6329ccb)
+### Admin: View Results
+- View test results after completion:
+![View Test Results](https://github.com/user-attachments/assets/96d37555-67c1-473e-9fb9-8c45e6329ccb)
 
 ---
 
@@ -102,5 +109,3 @@ This is a web-based **Test Management System** designed for administering and ma
 - **Frontend**: React.js, Ant Design
 - **Database**: MySQL Workbench
 - **API Testing**: Postman
-
----
