@@ -69,7 +69,7 @@ This is a web-based **Test Management System** designed for administering and ma
 - View user results before and after tests.
 #### Before Attempt:
 ![Results Before Attempt](https://github.com/user-attachments/assets/053d02e5-95f6-4b37-a444-39332f6241f5)
-#### Viewing Results:
+#### Viewing Results:(After attempt)
 ![View Results](https://github.com/user-attachments/assets/31557815-a662-488d-965b-69f16fcbc1b3)
 
 ---
