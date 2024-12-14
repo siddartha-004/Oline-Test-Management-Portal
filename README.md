@@ -90,9 +90,10 @@ This is a web-based **Test Management System** designed for administering and ma
 ![Back to Dashboard](https://github.com/user-attachments/assets/edadcb1f-9dc9-4fb5-b234-cd87c80f60be)
 
 
-##By Admin:
+###By Admin:
 -View test results after completion:
-![Results Page](https://github.com/user-attachments/assets/986330f1-c8ea-41a2-adba-45499c5a134d)
+![image](https://github.com/user-attachments/assets/96d37555-67c1-473e-9fb9-8c45e6329ccb)
+
 ---
 
 ## 🛠️ Technologies Used
