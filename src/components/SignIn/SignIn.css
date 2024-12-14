@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .sign-in-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 550px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .illustration {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .sign-in-card {
+    flex: 2;
+    background-color: #f4f4f8;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .submit-btn {
+    margin-top: 1rem;
+    width: 3rem; 
+    height: 3rem; 
+    padding: 0; 
+    font-size: 1.2rem; 
+    border: none;
+    border-radius: 50%; 
+    background-color: #6c63ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 350px;
+  }
+  
+  .sign-up-text {
+    margin-top: -2rem;
+    font-size: 0.9rem;
+  }
+  
+  .sign-up-text a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  input {
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none; 
+    transition: border-color 0.3s ease; 
+  }
+  
+  input:focus {
+    border-color: #8280b8; 
+    box-shadow: none; 
+  }
+  h2{
+    color:crimson;
+  }
+  .error-message {
+    background-color: rgb(242, 150, 150); 
+    color: white; 
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    height: 10px;
+  }
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  
